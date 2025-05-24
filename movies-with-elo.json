@@ -1,0 +1,2652 @@
+[
+  {
+    "title": "Inception",
+    "rating": 5,
+    "elo": 2588
+  },
+  {
+    "title": "GoodFellas",
+    "rating": 5,
+    "elo": 2468
+  },
+  {
+    "title": "Avengers: Endgame",
+    "rating": 5,
+    "elo": 2409
+  },
+  {
+    "title": "Children of Men",
+    "rating": 5,
+    "elo": 2367
+  },
+  {
+    "title": "About Time",
+    "rating": 5,
+    "elo": 2335
+  },
+  {
+    "title": "Knives Out",
+    "rating": 5,
+    "elo": 2309
+  },
+  {
+    "title": "The Empire Strikes Back",
+    "rating": 5,
+    "elo": 2287
+  },
+  {
+    "title": "Star Wars: The Last Jedi",
+    "rating": 5,
+    "elo": 2268
+  },
+  {
+    "title": "Parasite",
+    "rating": 5,
+    "elo": 2250
+  },
+  {
+    "title": "Blade Runner 2049",
+    "rating": 5,
+    "elo": 2235
+  },
+  {
+    "title": "Oppenheimer",
+    "rating": 5,
+    "elo": 2220
+  },
+  {
+    "title": "Dune: Part Two",
+    "rating": 5,
+    "elo": 2207
+  },
+  {
+    "title": "Arrival",
+    "rating": 5,
+    "elo": 2195
+  },
+  {
+    "title": "Guardians of the Galaxy Vol. 2",
+    "rating": 4.5,
+    "elo": 2183
+  },
+  {
+    "title": "The Dark Knight",
+    "rating": 4.5,
+    "elo": 2172
+  },
+  {
+    "title": "10 Cloverfield Lane",
+    "rating": 4.5,
+    "elo": 2162
+  },
+  {
+    "title": "Three Billboards Outside Ebbing, Missouri",
+    "rating": 4.5,
+    "elo": 2153
+  },
+  {
+    "title": "Sicario",
+    "rating": 4.5,
+    "elo": 2143
+  },
+  {
+    "title": "Memento",
+    "rating": 4.5,
+    "elo": 2135
+  },
+  {
+    "title": "Coco",
+    "rating": 4.5,
+    "elo": 2126
+  },
+  {
+    "title": "Prisoners",
+    "rating": 4.5,
+    "elo": 2118
+  },
+  {
+    "title": "Annihilation",
+    "rating": 4.5,
+    "elo": 2110
+  },
+  {
+    "title": "Searching",
+    "rating": 4.5,
+    "elo": 2103
+  },
+  {
+    "title": "Enemy",
+    "rating": 4.5,
+    "elo": 2096
+  },
+  {
+    "title": "Birdman or (The Unexpected Virtue of Ignorance)",
+    "rating": 4.5,
+    "elo": 2089
+  },
+  {
+    "title": "The Departed",
+    "rating": 4.5,
+    "elo": 2082
+  },
+  {
+    "title": "Baby Driver",
+    "rating": 4.5,
+    "elo": 2076
+  },
+  {
+    "title": "Taxi Driver",
+    "rating": 4.5,
+    "elo": 2069
+  },
+  {
+    "title": "Room",
+    "rating": 4.5,
+    "elo": 2063
+  },
+  {
+    "title": "Fight Club",
+    "rating": 4.5,
+    "elo": 2057
+  },
+  {
+    "title": "Star Wars",
+    "rating": 4.5,
+    "elo": 2051
+  },
+  {
+    "title": "Return of the Jedi",
+    "rating": 4.5,
+    "elo": 2046
+  },
+  {
+    "title": "Mad Max: Fury Road",
+    "rating": 4.5,
+    "elo": 2040
+  },
+  {
+    "title": "Jurassic Park",
+    "rating": 4.5,
+    "elo": 2035
+  },
+  {
+    "title": "Little Women",
+    "rating": 4.5,
+    "elo": 2030
+  },
+  {
+    "title": "Jojo Rabbit",
+    "rating": 4.5,
+    "elo": 2025
+  },
+  {
+    "title": "Ford v Ferrari",
+    "rating": 4.5,
+    "elo": 2019
+  },
+  {
+    "title": "Se7en",
+    "rating": 4.5,
+    "elo": 2015
+  },
+  {
+    "title": "Rear Window",
+    "rating": 4.5,
+    "elo": 2010
+  },
+  {
+    "title": "Nomadland",
+    "rating": 4.5,
+    "elo": 2005
+  },
+  {
+    "title": "Judas and the Black Messiah",
+    "rating": 4.5,
+    "elo": 2000
+  },
+  {
+    "title": "Minari",
+    "rating": 4.5,
+    "elo": 1996
+  },
+  {
+    "title": "Promising Young Woman",
+    "rating": 4.5,
+    "elo": 1991
+  },
+  {
+    "title": "The Father",
+    "rating": 4.5,
+    "elo": 1987
+  },
+  {
+    "title": "In the Heights",
+    "rating": 4.5,
+    "elo": 1983
+  },
+  {
+    "title": "Dune",
+    "rating": 4.5,
+    "elo": 1978
+  },
+  {
+    "title": "The Matrix",
+    "rating": 4.5,
+    "elo": 1974
+  },
+  {
+    "title": "CODA",
+    "rating": 4.5,
+    "elo": 1970
+  },
+  {
+    "title": "Hereditary",
+    "rating": 4.5,
+    "elo": 1966
+  },
+  {
+    "title": "Everything Everywhere All at Once",
+    "rating": 4.5,
+    "elo": 1962
+  },
+  {
+    "title": "RRR",
+    "rating": 4.5,
+    "elo": 1958
+  },
+  {
+    "title": "Get Out",
+    "rating": 4.5,
+    "elo": 1954
+  },
+  {
+    "title": "Us",
+    "rating": 4.5,
+    "elo": 1950
+  },
+  {
+    "title": "The Humans",
+    "rating": 4.5,
+    "elo": 1947
+  },
+  {
+    "title": "Lady Bird",
+    "rating": 4.5,
+    "elo": 1943
+  },
+  {
+    "title": "Glass Onion",
+    "rating": 4.5,
+    "elo": 1939
+  },
+  {
+    "title": "Avatar: The Way of Water",
+    "rating": 4.5,
+    "elo": 1936
+  },
+  {
+    "title": "Spider-Man: Into the Spider-Verse",
+    "rating": 4.5,
+    "elo": 1932
+  },
+  {
+    "title": "Spider-Man: Across the Spider-Verse",
+    "rating": 4.5,
+    "elo": 1929
+  },
+  {
+    "title": "Modern Times",
+    "rating": 4.5,
+    "elo": 1925
+  },
+  {
+    "title": "Sherlock Jr.",
+    "rating": 4.5,
+    "elo": 1922
+  },
+  {
+    "title": "Double Indemnity",
+    "rating": 4.5,
+    "elo": 1918
+  },
+  {
+    "title": "The Witch",
+    "rating": 4.5,
+    "elo": 1915
+  },
+  {
+    "title": "The Thing",
+    "rating": 4.5,
+    "elo": 1912
+  },
+  {
+    "title": "Black Christmas",
+    "rating": 4.5,
+    "elo": 1908
+  },
+  {
+    "title": "Ex Machina",
+    "rating": 4.5,
+    "elo": 1905
+  },
+  {
+    "title": "Zootopia",
+    "rating": 4,
+    "elo": 1902
+  },
+  {
+    "title": "The Big Sick",
+    "rating": 4,
+    "elo": 1899
+  },
+  {
+    "title": "Star Wars: The Force Awakens",
+    "rating": 4,
+    "elo": 1895
+  },
+  {
+    "title": "The Social Network",
+    "rating": 4,
+    "elo": 1892
+  },
+  {
+    "title": "Battle of the Sexes",
+    "rating": 4,
+    "elo": 1889
+  },
+  {
+    "title": "Gone Girl",
+    "rating": 4,
+    "elo": 1886
+  },
+  {
+    "title": "Darkest Hour",
+    "rating": 4,
+    "elo": 1883
+  },
+  {
+    "title": "Wind River",
+    "rating": 4,
+    "elo": 1880
+  },
+  {
+    "title": "Avengers: Infinity War",
+    "rating": 4,
+    "elo": 1877
+  },
+  {
+    "title": "Upstream Color",
+    "rating": 4,
+    "elo": 1874
+  },
+  {
+    "title": "Deadpool 2",
+    "rating": 4,
+    "elo": 1871
+  },
+  {
+    "title": "Looper",
+    "rating": 4,
+    "elo": 1868
+  },
+  {
+    "title": "Mission: Impossible – Fallout",
+    "rating": 4,
+    "elo": 1866
+  },
+  {
+    "title": "Pulp Fiction",
+    "rating": 4,
+    "elo": 1863
+  },
+  {
+    "title": "The Post",
+    "rating": 4,
+    "elo": 1860
+  },
+  {
+    "title": "Logan",
+    "rating": 4,
+    "elo": 1857
+  },
+  {
+    "title": "Interstellar",
+    "rating": 4,
+    "elo": 1854
+  },
+  {
+    "title": "Zodiac",
+    "rating": 4,
+    "elo": 1852
+  },
+  {
+    "title": "Unbreakable",
+    "rating": 4,
+    "elo": 1849
+  },
+  {
+    "title": "Eighth Grade",
+    "rating": 4,
+    "elo": 1846
+  },
+  {
+    "title": "Die Hard",
+    "rating": 4,
+    "elo": 1843
+  },
+  {
+    "title": "Moon",
+    "rating": 4,
+    "elo": 1841
+  },
+  {
+    "title": "Source Code",
+    "rating": 4,
+    "elo": 1838
+  },
+  {
+    "title": "The Ritual",
+    "rating": 4,
+    "elo": 1836
+  },
+  {
+    "title": "Dunkirk",
+    "rating": 4,
+    "elo": 1833
+  },
+  {
+    "title": "The Big Short",
+    "rating": 4,
+    "elo": 1830
+  },
+  {
+    "title": "I, Tonya",
+    "rating": 4,
+    "elo": 1828
+  },
+  {
+    "title": "Guardians of the Galaxy",
+    "rating": 4,
+    "elo": 1825
+  },
+  {
+    "title": "Bad Times at the El Royale",
+    "rating": 4,
+    "elo": 1823
+  },
+  {
+    "title": "Jaws",
+    "rating": 4,
+    "elo": 1820
+  },
+  {
+    "title": "Shutter Island",
+    "rating": 4,
+    "elo": 1818
+  },
+  {
+    "title": "The Martian",
+    "rating": 4,
+    "elo": 1815
+  },
+  {
+    "title": "Moneyball",
+    "rating": 4,
+    "elo": 1813
+  },
+  {
+    "title": "Hot Fuzz",
+    "rating": 4,
+    "elo": 1810
+  },
+  {
+    "title": "Iron Man",
+    "rating": 4,
+    "elo": 1808
+  },
+  {
+    "title": "The Avengers",
+    "rating": 4,
+    "elo": 1805
+  },
+  {
+    "title": "Captain America: The Winter Soldier",
+    "rating": 4,
+    "elo": 1803
+  },
+  {
+    "title": "Avengers: Age of Ultron",
+    "rating": 4,
+    "elo": 1801
+  },
+  {
+    "title": "Captain America: Civil War",
+    "rating": 4,
+    "elo": 1798
+  },
+  {
+    "title": "Triangle",
+    "rating": 4,
+    "elo": 1796
+  },
+  {
+    "title": "Coherence",
+    "rating": 4,
+    "elo": 1793
+  },
+  {
+    "title": "Primer",
+    "rating": 4,
+    "elo": 1791
+  },
+  {
+    "title": "Nightcrawler",
+    "rating": 4,
+    "elo": 1789
+  },
+  {
+    "title": "The Wolf of Wall Street",
+    "rating": 4,
+    "elo": 1786
+  },
+  {
+    "title": "Rocketman",
+    "rating": 4,
+    "elo": 1784
+  },
+  {
+    "title": "Once Upon a Time... in Hollywood",
+    "rating": 4,
+    "elo": 1782
+  },
+  {
+    "title": "The Shining",
+    "rating": 4,
+    "elo": 1780
+  },
+  {
+    "title": "The Sixth Sense",
+    "rating": 4,
+    "elo": 1777
+  },
+  {
+    "title": "Her",
+    "rating": 4,
+    "elo": 1775
+  },
+  {
+    "title": "Terminator 2: Judgment Day",
+    "rating": 4,
+    "elo": 1773
+  },
+  {
+    "title": "The Irishman",
+    "rating": 4,
+    "elo": 1770
+  },
+  {
+    "title": "Dark Waters",
+    "rating": 4,
+    "elo": 1768
+  },
+  {
+    "title": "Skyfall",
+    "rating": 4,
+    "elo": 1766
+  },
+  {
+    "title": "1917",
+    "rating": 4,
+    "elo": 1764
+  },
+  {
+    "title": "The King of Comedy",
+    "rating": 4,
+    "elo": 1762
+  },
+  {
+    "title": "The Farewell",
+    "rating": 4,
+    "elo": 1759
+  },
+  {
+    "title": "Marriage Story",
+    "rating": 4,
+    "elo": 1757
+  },
+  {
+    "title": "The Prestige",
+    "rating": 4,
+    "elo": 1755
+  },
+  {
+    "title": "The Iron Giant",
+    "rating": 4,
+    "elo": 1753
+  },
+  {
+    "title": "Insomnia",
+    "rating": 4,
+    "elo": 1751
+  },
+  {
+    "title": "Spotlight",
+    "rating": 4,
+    "elo": 1749
+  },
+  {
+    "title": "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb",
+    "rating": 4,
+    "elo": 1747
+  },
+  {
+    "title": "Paddington 2",
+    "rating": 4,
+    "elo": 1744
+  },
+  {
+    "title": "Citizen Kane",
+    "rating": 4,
+    "elo": 1742
+  },
+  {
+    "title": "Soul",
+    "rating": 4,
+    "elo": 1740
+  },
+  {
+    "title": "Hunt for the Wilderpeople",
+    "rating": 4,
+    "elo": 1738
+  },
+  {
+    "title": "One Night in Miami...",
+    "rating": 4,
+    "elo": 1736
+  },
+  {
+    "title": "Sound of Metal",
+    "rating": 4,
+    "elo": 1734
+  },
+  {
+    "title": "The Mauritanian",
+    "rating": 4,
+    "elo": 1732
+  },
+  {
+    "title": "Titanic",
+    "rating": 4,
+    "elo": 1730
+  },
+  {
+    "title": "Borat: Cultural Learnings of America for Make Benefit Glorious Nation of Kazakhstan",
+    "rating": 4,
+    "elo": 1728
+  },
+  {
+    "title": "A Quiet Place",
+    "rating": 4,
+    "elo": 1726
+  },
+  {
+    "title": "Luca",
+    "rating": 4,
+    "elo": 1724
+  },
+  {
+    "title": "The Breakfast Club",
+    "rating": 4,
+    "elo": 1722
+  },
+  {
+    "title": "Memories of Murder",
+    "rating": 4,
+    "elo": 1720
+  },
+  {
+    "title": "Stowaway",
+    "rating": 4,
+    "elo": 1718
+  },
+  {
+    "title": "The Suicide Squad",
+    "rating": 4,
+    "elo": 1716
+  },
+  {
+    "title": "Shang-Chi and the Legend of the Ten Rings",
+    "rating": 4,
+    "elo": 1714
+  },
+  {
+    "title": "Candyman",
+    "rating": 4,
+    "elo": 1712
+  },
+  {
+    "title": "Black Mirror: White Christmas",
+    "rating": 4,
+    "elo": 1710
+  },
+  {
+    "title": "Psycho",
+    "rating": 4,
+    "elo": 1708
+  },
+  {
+    "title": "No Time to Die",
+    "rating": 4,
+    "elo": 1706
+  },
+  {
+    "title": "Spider-Man: No Way Home",
+    "rating": 4,
+    "elo": 1704
+  },
+  {
+    "title": "tick, tick... BOOM!",
+    "rating": 4,
+    "elo": 1702
+  },
+  {
+    "title": "West Side Story",
+    "rating": 4,
+    "elo": 1700
+  },
+  {
+    "title": "The Batman",
+    "rating": 4,
+    "elo": 1698
+  },
+  {
+    "title": "Belfast",
+    "rating": 4,
+    "elo": 1696
+  },
+  {
+    "title": "Drive My Car",
+    "rating": 4,
+    "elo": 1694
+  },
+  {
+    "title": "X",
+    "rating": 4,
+    "elo": 1692
+  },
+  {
+    "title": "Jujutsu Kaisen 0",
+    "rating": 4,
+    "elo": 1690
+  },
+  {
+    "title": "Love and Monsters",
+    "rating": 4,
+    "elo": 1688
+  },
+  {
+    "title": "Ambulance",
+    "rating": 4,
+    "elo": 1686
+  },
+  {
+    "title": "Doctor Strange in the Multiverse of Madness",
+    "rating": 4,
+    "elo": 1684
+  },
+  {
+    "title": "Top Gun: Maverick",
+    "rating": 4,
+    "elo": 1683
+  },
+  {
+    "title": "Nope",
+    "rating": 4,
+    "elo": 1681
+  },
+  {
+    "title": "Bullet Train",
+    "rating": 4,
+    "elo": 1679
+  },
+  {
+    "title": "The Nice Guys",
+    "rating": 4,
+    "elo": 1677
+  },
+  {
+    "title": "The Fabulous Baron Munchausen",
+    "rating": 4,
+    "elo": 1675
+  },
+  {
+    "title": "We Need to Talk About Kevin",
+    "rating": 4,
+    "elo": 1673
+  },
+  {
+    "title": "The Woman King",
+    "rating": 4,
+    "elo": 1671
+  },
+  {
+    "title": "Mulholland Drive",
+    "rating": 4,
+    "elo": 1669
+  },
+  {
+    "title": "Bros",
+    "rating": 4,
+    "elo": 1668
+  },
+  {
+    "title": "Moonlight",
+    "rating": 4,
+    "elo": 1666
+  },
+  {
+    "title": "Avatar",
+    "rating": 4,
+    "elo": 1664
+  },
+  {
+    "title": "Puss in Boots: The Last Wish",
+    "rating": 4,
+    "elo": 1662
+  },
+  {
+    "title": "Atlantics",
+    "rating": 4,
+    "elo": 1660
+  },
+  {
+    "title": "John Wick: Chapter 4",
+    "rating": 4,
+    "elo": 1658
+  },
+  {
+    "title": "Suzume",
+    "rating": 4,
+    "elo": 1657
+  },
+  {
+    "title": "Guardians of the Galaxy Vol. 3",
+    "rating": 4,
+    "elo": 1655
+  },
+  {
+    "title": "Barbarian",
+    "rating": 4,
+    "elo": 1653
+  },
+  {
+    "title": "Raiders of the Lost Ark",
+    "rating": 4,
+    "elo": 1651
+  },
+  {
+    "title": "O'er the Land",
+    "rating": 4,
+    "elo": 1649
+  },
+  {
+    "title": "Last Things",
+    "rating": 4,
+    "elo": 1647
+  },
+  {
+    "title": "Battleship Potemkin",
+    "rating": 4,
+    "elo": 1646
+  },
+  {
+    "title": "M",
+    "rating": 4,
+    "elo": 1644
+  },
+  {
+    "title": "I Was Born, But...",
+    "rating": 4,
+    "elo": 1642
+  },
+  {
+    "title": "Casablanca",
+    "rating": 4,
+    "elo": 1640
+  },
+  {
+    "title": "Past Lives",
+    "rating": 4,
+    "elo": 1638
+  },
+  {
+    "title": "Scream",
+    "rating": 4,
+    "elo": 1637
+  },
+  {
+    "title": "Peeping Tom",
+    "rating": 4,
+    "elo": 1635
+  },
+  {
+    "title": "Civil War",
+    "rating": 4,
+    "elo": 1633
+  },
+  {
+    "title": "Longlegs",
+    "rating": 4,
+    "elo": 1631
+  },
+  {
+    "title": "Wicked",
+    "rating": 4,
+    "elo": 1630
+  },
+  {
+    "title": "North by Current",
+    "rating": 4,
+    "elo": 1628
+  },
+  {
+    "title": "No Country for Old Men",
+    "rating": 4,
+    "elo": 1626
+  },
+  {
+    "title": "Juror #2",
+    "rating": 4,
+    "elo": 1624
+  },
+  {
+    "title": "American Psycho",
+    "rating": 4,
+    "elo": 1622
+  },
+  {
+    "title": "The Lives of Others",
+    "rating": 4,
+    "elo": 1621
+  },
+  {
+    "title": "Howl's Moving Castle",
+    "rating": 4,
+    "elo": 1619
+  },
+  {
+    "title": "Selma",
+    "rating": 4,
+    "elo": 1617
+  },
+  {
+    "title": "Thunderbolts*",
+    "rating": 4,
+    "elo": 1615
+  },
+  {
+    "title": "Wonder Woman",
+    "rating": 3.5,
+    "elo": 1614
+  },
+  {
+    "title": "Doctor Strange",
+    "rating": 3.5,
+    "elo": 1612
+  },
+  {
+    "title": "Rise of the Planet of the Apes",
+    "rating": 3.5,
+    "elo": 1610
+  },
+  {
+    "title": "Beverly Hills Cop",
+    "rating": 3.5,
+    "elo": 1608
+  },
+  {
+    "title": "21 Jump Street",
+    "rating": 3.5,
+    "elo": 1607
+  },
+  {
+    "title": "The World's End",
+    "rating": 3.5,
+    "elo": 1605
+  },
+  {
+    "title": "Elf",
+    "rating": 3.5,
+    "elo": 1603
+  },
+  {
+    "title": "Logan Lucky",
+    "rating": 3.5,
+    "elo": 1602
+  },
+  {
+    "title": "John Wick",
+    "rating": 3.5,
+    "elo": 1600
+  },
+  {
+    "title": "Mission: Impossible – Ghost Protocol",
+    "rating": 3.5,
+    "elo": 1598
+  },
+  {
+    "title": "Black Panther",
+    "rating": 3.5,
+    "elo": 1596
+  },
+  {
+    "title": "Edge of Tomorrow",
+    "rating": 3.5,
+    "elo": 1595
+  },
+  {
+    "title": "The Disaster Artist",
+    "rating": 3.5,
+    "elo": 1593
+  },
+  {
+    "title": "Thor: Ragnarok",
+    "rating": 3.5,
+    "elo": 1591
+  },
+  {
+    "title": "Captain America: The First Avenger",
+    "rating": 3.5,
+    "elo": 1590
+  },
+  {
+    "title": "Drive",
+    "rating": 3.5,
+    "elo": 1588
+  },
+  {
+    "title": "BlacKkKlansman",
+    "rating": 3.5,
+    "elo": 1586
+  },
+  {
+    "title": "A Simple Favor",
+    "rating": 3.5,
+    "elo": 1584
+  },
+  {
+    "title": "Eternal Sunshine of the Spotless Mind",
+    "rating": 3.5,
+    "elo": 1583
+  },
+  {
+    "title": "Zero Dark Thirty",
+    "rating": 3.5,
+    "elo": 1581
+  },
+  {
+    "title": "The Shape of Water",
+    "rating": 3.5,
+    "elo": 1579
+  },
+  {
+    "title": "Kingsman: The Secret Service",
+    "rating": 3.5,
+    "elo": 1578
+  },
+  {
+    "title": "Molly's Game",
+    "rating": 3.5,
+    "elo": 1576
+  },
+  {
+    "title": "First Man",
+    "rating": 3.5,
+    "elo": 1574
+  },
+  {
+    "title": "American Hustle",
+    "rating": 3.5,
+    "elo": 1573
+  },
+  {
+    "title": "The Cabin in the Woods",
+    "rating": 3.5,
+    "elo": 1571
+  },
+  {
+    "title": "Scott Pilgrim vs. the World",
+    "rating": 3.5,
+    "elo": 1569
+  },
+  {
+    "title": "Thor",
+    "rating": 3.5,
+    "elo": 1567
+  },
+  {
+    "title": "Iron Man 3",
+    "rating": 3.5,
+    "elo": 1566
+  },
+  {
+    "title": "Spider-Man: Homecoming",
+    "rating": 3.5,
+    "elo": 1564
+  },
+  {
+    "title": "Apollo 13",
+    "rating": 3.5,
+    "elo": 1562
+  },
+  {
+    "title": "Green Book",
+    "rating": 3.5,
+    "elo": 1561
+  },
+  {
+    "title": "Prospect",
+    "rating": 3.5,
+    "elo": 1559
+  },
+  {
+    "title": "It Follows",
+    "rating": 3.5,
+    "elo": 1557
+  },
+  {
+    "title": "Spider-Man: Far From Home",
+    "rating": 3.5,
+    "elo": 1556
+  },
+  {
+    "title": "Mr. Nobody",
+    "rating": 3.5,
+    "elo": 1554
+  },
+  {
+    "title": "Casino",
+    "rating": 3.5,
+    "elo": 1552
+  },
+  {
+    "title": "The Endless",
+    "rating": 3.5,
+    "elo": 1551
+  },
+  {
+    "title": "Ad Astra",
+    "rating": 3.5,
+    "elo": 1549
+  },
+  {
+    "title": "Contact",
+    "rating": 3.5,
+    "elo": 1547
+  },
+  {
+    "title": "It",
+    "rating": 3.5,
+    "elo": 1546
+  },
+  {
+    "title": "Doctor Sleep",
+    "rating": 3.5,
+    "elo": 1544
+  },
+  {
+    "title": "A Beautiful Day in the Neighborhood",
+    "rating": 3.5,
+    "elo": 1542
+  },
+  {
+    "title": "American Made",
+    "rating": 3.5,
+    "elo": 1541
+  },
+  {
+    "title": "Casino Royale",
+    "rating": 3.5,
+    "elo": 1539
+  },
+  {
+    "title": "Ready or Not",
+    "rating": 3.5,
+    "elo": 1537
+  },
+  {
+    "title": "Ingrid Goes West",
+    "rating": 3.5,
+    "elo": 1536
+  },
+  {
+    "title": "Sully",
+    "rating": 3.5,
+    "elo": 1534
+  },
+  {
+    "title": "It Comes at Night",
+    "rating": 3.5,
+    "elo": 1532
+  },
+  {
+    "title": "Brick",
+    "rating": 3.5,
+    "elo": 1531
+  },
+  {
+    "title": "The Brothers Bloom",
+    "rating": 3.5,
+    "elo": 1529
+  },
+  {
+    "title": "Booksmart",
+    "rating": 3.5,
+    "elo": 1527
+  },
+  {
+    "title": "Birds of Prey (and the Fantabulous Emancipation of One Harley Quinn)",
+    "rating": 3.5,
+    "elo": 1526
+  },
+  {
+    "title": "The Invisible Man",
+    "rating": 3.5,
+    "elo": 1524
+  },
+  {
+    "title": "John Wick: Chapter 3 – Parabellum",
+    "rating": 3.5,
+    "elo": 1522
+  },
+  {
+    "title": "The Silence of the Lambs",
+    "rating": 3.5,
+    "elo": 1521
+  },
+  {
+    "title": "Palm Springs",
+    "rating": 3.5,
+    "elo": 1519
+  },
+  {
+    "title": "The Lego Batman Movie",
+    "rating": 3.5,
+    "elo": 1517
+  },
+  {
+    "title": "Watchmen",
+    "rating": 3.5,
+    "elo": 1516
+  },
+  {
+    "title": "Tenet",
+    "rating": 3.5,
+    "elo": 1514
+  },
+  {
+    "title": "Steve Jobs",
+    "rating": 3.5,
+    "elo": 1512
+  },
+  {
+    "title": "Blade Runner",
+    "rating": 3.5,
+    "elo": 1511
+  },
+  {
+    "title": "2001: A Space Odyssey",
+    "rating": 3.5,
+    "elo": 1509
+  },
+  {
+    "title": "Aliens",
+    "rating": 3.5,
+    "elo": 1507
+  },
+  {
+    "title": "The Trial of the Chicago 7",
+    "rating": 3.5,
+    "elo": 1506
+  },
+  {
+    "title": "Home Alone",
+    "rating": 3.5,
+    "elo": 1504
+  },
+  {
+    "title": "Ma Rainey's Black Bottom",
+    "rating": 3.5,
+    "elo": 1502
+  },
+  {
+    "title": "First Cow",
+    "rating": 3.5,
+    "elo": 1501
+  },
+  {
+    "title": "Another Round",
+    "rating": 3.5,
+    "elo": 1499
+  },
+  {
+    "title": "Zack Snyder's Justice League",
+    "rating": 3.5,
+    "elo": 1498
+  },
+  {
+    "title": "Hush",
+    "rating": 3.5,
+    "elo": 1496
+  },
+  {
+    "title": "Space Sweepers",
+    "rating": 3.5,
+    "elo": 1494
+  },
+  {
+    "title": "Borat Subsequent Moviefilm",
+    "rating": 3.5,
+    "elo": 1493
+  },
+  {
+    "title": "Weekend",
+    "rating": 3.5,
+    "elo": 1491
+  },
+  {
+    "title": "Nobody",
+    "rating": 3.5,
+    "elo": 1489
+  },
+  {
+    "title": "The Girl with the Dragon Tattoo",
+    "rating": 3.5,
+    "elo": 1488
+  },
+  {
+    "title": "Army of the Dead",
+    "rating": 3.5,
+    "elo": 1486
+  },
+  {
+    "title": "A Quiet Place Part II",
+    "rating": 3.5,
+    "elo": 1484
+  },
+  {
+    "title": "Cruella",
+    "rating": 3.5,
+    "elo": 1483
+  },
+  {
+    "title": "The Mitchells vs. the Machines",
+    "rating": 3.5,
+    "elo": 1481
+  },
+  {
+    "title": "Black Widow",
+    "rating": 3.5,
+    "elo": 1479
+  },
+  {
+    "title": "Stillwater",
+    "rating": 3.5,
+    "elo": 1478
+  },
+  {
+    "title": "Free Guy",
+    "rating": 3.5,
+    "elo": 1476
+  },
+  {
+    "title": "Black Mirror: Black Museum",
+    "rating": 3.5,
+    "elo": 1474
+  },
+  {
+    "title": "The Conjuring",
+    "rating": 3.5,
+    "elo": 1473
+  },
+  {
+    "title": "Coraline",
+    "rating": 3.5,
+    "elo": 1471
+  },
+  {
+    "title": "The Night House",
+    "rating": 3.5,
+    "elo": 1469
+  },
+  {
+    "title": "Happy Death Day",
+    "rating": 3.5,
+    "elo": 1468
+  },
+  {
+    "title": "What We Do in the Shadows",
+    "rating": 3.5,
+    "elo": 1466
+  },
+  {
+    "title": "The Babadook",
+    "rating": 3.5,
+    "elo": 1464
+  },
+  {
+    "title": "Eternals",
+    "rating": 3.5,
+    "elo": 1463
+  },
+  {
+    "title": "Encanto",
+    "rating": 3.5,
+    "elo": 1461
+  },
+  {
+    "title": "The Matrix Revolutions",
+    "rating": 3.5,
+    "elo": 1459
+  },
+  {
+    "title": "Black Mirror: Playtest",
+    "rating": 3.5,
+    "elo": 1458
+  },
+  {
+    "title": "The Matrix Resurrections",
+    "rating": 3.5,
+    "elo": 1456
+  },
+  {
+    "title": "Licorice Pizza",
+    "rating": 3.5,
+    "elo": 1454
+  },
+  {
+    "title": "Nightmare Alley",
+    "rating": 3.5,
+    "elo": 1453
+  },
+  {
+    "title": "The Conjuring 2",
+    "rating": 3.5,
+    "elo": 1451
+  },
+  {
+    "title": "King Richard",
+    "rating": 3.5,
+    "elo": 1449
+  },
+  {
+    "title": "The Power of the Dog",
+    "rating": 3.5,
+    "elo": 1448
+  },
+  {
+    "title": "The Old Guard",
+    "rating": 3.5,
+    "elo": 1446
+  },
+  {
+    "title": "Sing 2",
+    "rating": 3.5,
+    "elo": 1444
+  },
+  {
+    "title": "Kong: Skull Island",
+    "rating": 3.5,
+    "elo": 1443
+  },
+  {
+    "title": "The Water Horse",
+    "rating": 3.5,
+    "elo": 1441
+  },
+  {
+    "title": "Pitch Perfect",
+    "rating": 3.5,
+    "elo": 1439
+  },
+  {
+    "title": "Mamma Mia!",
+    "rating": 3.5,
+    "elo": 1438
+  },
+  {
+    "title": "Sonic the Hedgehog 2",
+    "rating": 3.5,
+    "elo": 1436
+  },
+  {
+    "title": "Rogue One: A Star Wars Story",
+    "rating": 3.5,
+    "elo": 1434
+  },
+  {
+    "title": "Thor: Love and Thunder",
+    "rating": 3.5,
+    "elo": 1433
+  },
+  {
+    "title": "The Sea Beast",
+    "rating": 3.5,
+    "elo": 1431
+  },
+  {
+    "title": "The Black Phone",
+    "rating": 3.5,
+    "elo": 1429
+  },
+  {
+    "title": "As Above, So Below",
+    "rating": 3.5,
+    "elo": 1427
+  },
+  {
+    "title": "Popstar: Never Stop Never Stopping",
+    "rating": 3.5,
+    "elo": 1426
+  },
+  {
+    "title": "Tangerine",
+    "rating": 3.5,
+    "elo": 1424
+  },
+  {
+    "title": "Smile",
+    "rating": 3.5,
+    "elo": 1422
+  },
+  {
+    "title": "Lost in Translation",
+    "rating": 3.5,
+    "elo": 1421
+  },
+  {
+    "title": "Black Panther: Wakanda Forever",
+    "rating": 3.5,
+    "elo": 1419
+  },
+  {
+    "title": "The Fabelmans",
+    "rating": 3.5,
+    "elo": 1417
+  },
+  {
+    "title": "The Banshees of Inisherin",
+    "rating": 3.5,
+    "elo": 1416
+  },
+  {
+    "title": "Spirited Away",
+    "rating": 3.5,
+    "elo": 1414
+  },
+  {
+    "title": "The Menu",
+    "rating": 3.5,
+    "elo": 1412
+  },
+  {
+    "title": "The Exorcist",
+    "rating": 3.5,
+    "elo": 1410
+  },
+  {
+    "title": "Fast X",
+    "rating": 3.5,
+    "elo": 1409
+  },
+  {
+    "title": "Star Trek Beyond",
+    "rating": 3.5,
+    "elo": 1407
+  },
+  {
+    "title": "Nimona",
+    "rating": 3.5,
+    "elo": 1405
+  },
+  {
+    "title": "Barbie",
+    "rating": 3.5,
+    "elo": 1404
+  },
+  {
+    "title": "Talk to Me",
+    "rating": 3.5,
+    "elo": 1402
+  },
+  {
+    "title": "A Corner in Wheat",
+    "rating": 3.5,
+    "elo": 1400
+  },
+  {
+    "title": "Nosferatu",
+    "rating": 3.5,
+    "elo": 1398
+  },
+  {
+    "title": "Baby Face",
+    "rating": 3.5,
+    "elo": 1397
+  },
+  {
+    "title": "The Marvels",
+    "rating": 3.5,
+    "elo": 1395
+  },
+  {
+    "title": "The Unbearable Weight of Massive Talent",
+    "rating": 3.5,
+    "elo": 1393
+  },
+  {
+    "title": "Mean Girls",
+    "rating": 3.5,
+    "elo": 1392
+  },
+  {
+    "title": "Creature from the Black Lagoon",
+    "rating": 3.5,
+    "elo": 1390
+  },
+  {
+    "title": "Night of the Living Dead",
+    "rating": 3.5,
+    "elo": 1388
+  },
+  {
+    "title": "The Texas Chain Saw Massacre",
+    "rating": 3.5,
+    "elo": 1386
+  },
+  {
+    "title": "A Girl Walks Home Alone at Night",
+    "rating": 3.5,
+    "elo": 1385
+  },
+  {
+    "title": "Alien",
+    "rating": 3.5,
+    "elo": 1383
+  },
+  {
+    "title": "Evil Dead II",
+    "rating": 3.5,
+    "elo": 1381
+  },
+  {
+    "title": "The Fall Guy",
+    "rating": 3.5,
+    "elo": 1379
+  },
+  {
+    "title": "Ultraman: Rising",
+    "rating": 3.5,
+    "elo": 1378
+  },
+  {
+    "title": "Deadpool & Wolverine",
+    "rating": 3.5,
+    "elo": 1376
+  },
+  {
+    "title": "Orlando",
+    "rating": 3.5,
+    "elo": 1374
+  },
+  {
+    "title": "The Wild Robot",
+    "rating": 3.5,
+    "elo": 1372
+  },
+  {
+    "title": "Anora",
+    "rating": 3.5,
+    "elo": 1370
+  },
+  {
+    "title": "Election",
+    "rating": 3.5,
+    "elo": 1369
+  },
+  {
+    "title": "Deadpool",
+    "rating": 3,
+    "elo": 1367
+  },
+  {
+    "title": "Love Actually",
+    "rating": 3,
+    "elo": 1365
+  },
+  {
+    "title": "Game Night",
+    "rating": 3,
+    "elo": 1363
+  },
+  {
+    "title": "Bird Box",
+    "rating": 3,
+    "elo": 1362
+  },
+  {
+    "title": "Men in Black",
+    "rating": 3,
+    "elo": 1360
+  },
+  {
+    "title": "Captain Marvel",
+    "rating": 3,
+    "elo": 1358
+  },
+  {
+    "title": "Ant-Man",
+    "rating": 3,
+    "elo": 1356
+  },
+  {
+    "title": "Shazam!",
+    "rating": 3,
+    "elo": 1354
+  },
+  {
+    "title": "Sunshine",
+    "rating": 3,
+    "elo": 1353
+  },
+  {
+    "title": "Predestination",
+    "rating": 3,
+    "elo": 1351
+  },
+  {
+    "title": "Minority Report",
+    "rating": 3,
+    "elo": 1349
+  },
+  {
+    "title": "The Grand Budapest Hotel",
+    "rating": 3,
+    "elo": 1347
+  },
+  {
+    "title": "Yesterday",
+    "rating": 3,
+    "elo": 1345
+  },
+  {
+    "title": "John Wick: Chapter 2",
+    "rating": 3,
+    "elo": 1343
+  },
+  {
+    "title": "22 Jump Street",
+    "rating": 3,
+    "elo": 1342
+  },
+  {
+    "title": "Sorry to Bother You",
+    "rating": 3,
+    "elo": 1340
+  },
+  {
+    "title": "Independence Day",
+    "rating": 3,
+    "elo": 1338
+  },
+  {
+    "title": "Joker",
+    "rating": 3,
+    "elo": 1336
+  },
+  {
+    "title": "The Lighthouse",
+    "rating": 3,
+    "elo": 1334
+  },
+  {
+    "title": "Call Me by Your Name",
+    "rating": 3,
+    "elo": 1332
+  },
+  {
+    "title": "Solo: A Star Wars Story",
+    "rating": 3,
+    "elo": 1331
+  },
+  {
+    "title": "Resolution",
+    "rating": 3,
+    "elo": 1329
+  },
+  {
+    "title": "Snowpiercer",
+    "rating": 3,
+    "elo": 1327
+  },
+  {
+    "title": "Jumanji: Welcome to the Jungle",
+    "rating": 3,
+    "elo": 1325
+  },
+  {
+    "title": "Roman J. Israel, Esq.",
+    "rating": 3,
+    "elo": 1323
+  },
+  {
+    "title": "Kingsman: The Golden Circle",
+    "rating": 3,
+    "elo": 1321
+  },
+  {
+    "title": "Clue",
+    "rating": 3,
+    "elo": 1319
+  },
+  {
+    "title": "Onward",
+    "rating": 3,
+    "elo": 1317
+  },
+  {
+    "title": "Following",
+    "rating": 3,
+    "elo": 1316
+  },
+  {
+    "title": "The Fate of the Furious",
+    "rating": 3,
+    "elo": 1314
+  },
+  {
+    "title": "Mank",
+    "rating": 3,
+    "elo": 1312
+  },
+  {
+    "title": "News of the World",
+    "rating": 3,
+    "elo": 1310
+  },
+  {
+    "title": "The Birds",
+    "rating": 3,
+    "elo": 1308
+  },
+  {
+    "title": "Wrath of Man",
+    "rating": 3,
+    "elo": 1306
+  },
+  {
+    "title": "Fast & Furious Presents: Hobbs & Shaw",
+    "rating": 3,
+    "elo": 1304
+  },
+  {
+    "title": "F9",
+    "rating": 3,
+    "elo": 1302
+  },
+  {
+    "title": "Raya and the Last Dragon",
+    "rating": 3,
+    "elo": 1300
+  },
+  {
+    "title": "The Tomorrow War",
+    "rating": 3,
+    "elo": 1298
+  },
+  {
+    "title": "Old",
+    "rating": 3,
+    "elo": 1296
+  },
+  {
+    "title": "Fighting with My Family",
+    "rating": 3,
+    "elo": 1294
+  },
+  {
+    "title": "Jumanji",
+    "rating": 3,
+    "elo": 1292
+  },
+  {
+    "title": "Candyman",
+    "rating": 3,
+    "elo": 1290
+  },
+  {
+    "title": "Last Night in Soho",
+    "rating": 3,
+    "elo": 1288
+  },
+  {
+    "title": "Happy Death Day 2U",
+    "rating": 3,
+    "elo": 1286
+  },
+  {
+    "title": "Antlers",
+    "rating": 3,
+    "elo": 1284
+  },
+  {
+    "title": "Ghostbusters",
+    "rating": 3,
+    "elo": 1282
+  },
+  {
+    "title": "The Matrix Reloaded",
+    "rating": 3,
+    "elo": 1280
+  },
+  {
+    "title": "Don't Look Up",
+    "rating": 3,
+    "elo": 1278
+  },
+  {
+    "title": "Black Mirror: Arkangel",
+    "rating": 3,
+    "elo": 1276
+  },
+  {
+    "title": "The Conjuring: The Devil Made Me Do It",
+    "rating": 3,
+    "elo": 1274
+  },
+  {
+    "title": "The Lost City",
+    "rating": 3,
+    "elo": 1272
+  },
+  {
+    "title": "It Chapter Two",
+    "rating": 3,
+    "elo": 1270
+  },
+  {
+    "title": "The Great Gatsby",
+    "rating": 3,
+    "elo": 1268
+  },
+  {
+    "title": "What Happened to Monday",
+    "rating": 3,
+    "elo": 1266
+  },
+  {
+    "title": "Murder on the Orient Express",
+    "rating": 3,
+    "elo": 1264
+  },
+  {
+    "title": "The Maze Runner",
+    "rating": 3,
+    "elo": 1262
+  },
+  {
+    "title": "Maze Runner: The Scorch Trials",
+    "rating": 3,
+    "elo": 1260
+  },
+  {
+    "title": "Maze Runner: The Death Cure",
+    "rating": 3,
+    "elo": 1258
+  },
+  {
+    "title": "Scooby-Doo on Zombie Island",
+    "rating": 3,
+    "elo": 1256
+  },
+  {
+    "title": "Scooby-Doo! and the Cyber Chase",
+    "rating": 3,
+    "elo": 1253
+  },
+  {
+    "title": "Scooby-Doo! and the Witch's Ghost",
+    "rating": 3,
+    "elo": 1251
+  },
+  {
+    "title": "Sonic the Hedgehog",
+    "rating": 3,
+    "elo": 1249
+  },
+  {
+    "title": "The League of Extraordinary Gentlemen",
+    "rating": 3,
+    "elo": 1247
+  },
+  {
+    "title": "Star Wars: Episode III – Revenge of the Sith",
+    "rating": 3,
+    "elo": 1245
+  },
+  {
+    "title": "Synchronic",
+    "rating": 3,
+    "elo": 1243
+  },
+  {
+    "title": "Lightyear",
+    "rating": 3,
+    "elo": 1241
+  },
+  {
+    "title": "Zoolander",
+    "rating": 3,
+    "elo": 1238
+  },
+  {
+    "title": "The Stepford Wives",
+    "rating": 3,
+    "elo": 1236
+  },
+  {
+    "title": "The Adam Project",
+    "rating": 3,
+    "elo": 1234
+  },
+  {
+    "title": "Triple Frontier",
+    "rating": 3,
+    "elo": 1232
+  },
+  {
+    "title": "The Lovers on the Bridge",
+    "rating": 3,
+    "elo": 1230
+  },
+  {
+    "title": "Dungeons & Dragons: Honor Among Thieves",
+    "rating": 3,
+    "elo": 1227
+  },
+  {
+    "title": "The Super Mario Bros. Movie",
+    "rating": 3,
+    "elo": 1225
+  },
+  {
+    "title": "Blue Beetle",
+    "rating": 3,
+    "elo": 1223
+  },
+  {
+    "title": "The Divorcee",
+    "rating": 3,
+    "elo": 1220
+  },
+  {
+    "title": "The Love Parade",
+    "rating": 3,
+    "elo": 1218
+  },
+  {
+    "title": "Gush",
+    "rating": 3,
+    "elo": 1216
+  },
+  {
+    "title": "Trolls Band Together",
+    "rating": 3,
+    "elo": 1214
+  },
+  {
+    "title": "Rebel Moon – Part One: A Child of Fire",
+    "rating": 3,
+    "elo": 1211
+  },
+  {
+    "title": "Frankenstein",
+    "rating": 3,
+    "elo": 1209
+  },
+  {
+    "title": "Please Don't Destroy: The Treasure of Foggy Mountain",
+    "rating": 3,
+    "elo": 1207
+  },
+  {
+    "title": "Twisters",
+    "rating": 3,
+    "elo": 1204
+  },
+  {
+    "title": "Wanda",
+    "rating": 3,
+    "elo": 1202
+  },
+  {
+    "title": "Showgirls",
+    "rating": 3,
+    "elo": 1199
+  },
+  {
+    "title": "Architecture Of Mountains",
+    "rating": 3,
+    "elo": 1197
+  },
+  {
+    "title": "Ghostbusters",
+    "rating": 2.5,
+    "elo": 1195
+  },
+  {
+    "title": "Suicide Squad",
+    "rating": 2.5,
+    "elo": 1192
+  },
+  {
+    "title": "The Hitman's Bodyguard",
+    "rating": 2.5,
+    "elo": 1190
+  },
+  {
+    "title": "Death at a Funeral",
+    "rating": 2.5,
+    "elo": 1187
+  },
+  {
+    "title": "The Cloverfield Paradox",
+    "rating": 2.5,
+    "elo": 1185
+  },
+  {
+    "title": "Justice League",
+    "rating": 2.5,
+    "elo": 1182
+  },
+  {
+    "title": "Fantastic Beasts: The Crimes of Grindelwald",
+    "rating": 2.5,
+    "elo": 1180
+  },
+  {
+    "title": "Ocean's Eight",
+    "rating": 2.5,
+    "elo": 1177
+  },
+  {
+    "title": "Wayne's World",
+    "rating": 2.5,
+    "elo": 1175
+  },
+  {
+    "title": "Ant-Man and the Wasp",
+    "rating": 2.5,
+    "elo": 1172
+  },
+  {
+    "title": "The Terminator",
+    "rating": 2.5,
+    "elo": 1170
+  },
+  {
+    "title": "Black Mirror: Bandersnatch",
+    "rating": 2.5,
+    "elo": 1167
+  },
+  {
+    "title": "Upgrade",
+    "rating": 2.5,
+    "elo": 1164
+  },
+  {
+    "title": "Thor: The Dark World",
+    "rating": 2.5,
+    "elo": 1162
+  },
+  {
+    "title": "Iron Man 2",
+    "rating": 2.5,
+    "elo": 1159
+  },
+  {
+    "title": "Gran Torino",
+    "rating": 2.5,
+    "elo": 1157
+  },
+  {
+    "title": "Infinity Chamber",
+    "rating": 2.5,
+    "elo": 1154
+  },
+  {
+    "title": "Incredibles 2",
+    "rating": 2.5,
+    "elo": 1151
+  },
+  {
+    "title": "The Blair Witch Project",
+    "rating": 2.5,
+    "elo": 1148
+  },
+  {
+    "title": "The Report",
+    "rating": 2.5,
+    "elo": 1146
+  },
+  {
+    "title": "Vice",
+    "rating": 2.5,
+    "elo": 1143
+  },
+  {
+    "title": "Bohemian Rhapsody",
+    "rating": 2.5,
+    "elo": 1140
+  },
+  {
+    "title": "Quantum of Solace",
+    "rating": 2.5,
+    "elo": 1137
+  },
+  {
+    "title": "Jumanji: The Next Level",
+    "rating": 2.5,
+    "elo": 1134
+  },
+  {
+    "title": "Good Morning, Vietnam",
+    "rating": 2.5,
+    "elo": 1132
+  },
+  {
+    "title": "Bombshell",
+    "rating": 2.5,
+    "elo": 1129
+  },
+  {
+    "title": "Heathers",
+    "rating": 2.5,
+    "elo": 1126
+  },
+  {
+    "title": "Starship Troopers",
+    "rating": 2.5,
+    "elo": 1123
+  },
+  {
+    "title": "Infernal Affairs",
+    "rating": 2.5,
+    "elo": 1120
+  },
+  {
+    "title": "Hot Rod",
+    "rating": 2.5,
+    "elo": 1117
+  },
+  {
+    "title": "Pieces of a Woman",
+    "rating": 2.5,
+    "elo": 1114
+  },
+  {
+    "title": "Burnt Offerings",
+    "rating": 2.5,
+    "elo": 1111
+  },
+  {
+    "title": "The Vanished",
+    "rating": 2.5,
+    "elo": 1108
+  },
+  {
+    "title": "Venom: Let There Be Carnage",
+    "rating": 2.5,
+    "elo": 1105
+  },
+  {
+    "title": "Spectre",
+    "rating": 2.5,
+    "elo": 1101
+  },
+  {
+    "title": "Ghostbusters: Afterlife",
+    "rating": 2.5,
+    "elo": 1098
+  },
+  {
+    "title": "The Magnificent Seven",
+    "rating": 2.5,
+    "elo": 1095
+  },
+  {
+    "title": "Now You See Me 2",
+    "rating": 2.5,
+    "elo": 1092
+  },
+  {
+    "title": "Cirque du Freak: The Vampire's Assistant",
+    "rating": 2.5,
+    "elo": 1088
+  },
+  {
+    "title": "Star Wars: Episode I – The Phantom Menace",
+    "rating": 2.5,
+    "elo": 1085
+  },
+  {
+    "title": "Star Wars: Episode II – Attack of the Clones",
+    "rating": 2.5,
+    "elo": 1082
+  },
+  {
+    "title": "Jurassic World Dominion",
+    "rating": 2.5,
+    "elo": 1078
+  },
+  {
+    "title": "Elvis",
+    "rating": 2.5,
+    "elo": 1075
+  },
+  {
+    "title": "The Gray Man",
+    "rating": 2.5,
+    "elo": 1071
+  },
+  {
+    "title": "Ant-Man and the Wasp: Quantumania",
+    "rating": 2.5,
+    "elo": 1068
+  },
+  {
+    "title": "Touki Bouki",
+    "rating": 2.5,
+    "elo": 1064
+  },
+  {
+    "title": "Shazam! Fury of the Gods",
+    "rating": 2.5,
+    "elo": 1061
+  },
+  {
+    "title": "Ruby Gillman, Teenage Kraken",
+    "rating": 2.5,
+    "elo": 1057
+  },
+  {
+    "title": "The Cheat",
+    "rating": 2.5,
+    "elo": 1053
+  },
+  {
+    "title": "Five Nights at Freddy's",
+    "rating": 2.5,
+    "elo": 1050
+  },
+  {
+    "title": "Damsel",
+    "rating": 2.5,
+    "elo": 1046
+  },
+  {
+    "title": "Halloween",
+    "rating": 2.5,
+    "elo": 1042
+  },
+  {
+    "title": "Cloverfield",
+    "rating": 2,
+    "elo": 1038
+  },
+  {
+    "title": "District 9",
+    "rating": 2,
+    "elo": 1034
+  },
+  {
+    "title": "Daddy's Home 2",
+    "rating": 2,
+    "elo": 1030
+  },
+  {
+    "title": "Ready Player One",
+    "rating": 2,
+    "elo": 1026
+  },
+  {
+    "title": "Crazy Rich Asians",
+    "rating": 2,
+    "elo": 1022
+  },
+  {
+    "title": "Aquaman",
+    "rating": 2,
+    "elo": 1017
+  },
+  {
+    "title": "Pacific Rim",
+    "rating": 2,
+    "elo": 1013
+  },
+  {
+    "title": "Signs",
+    "rating": 2,
+    "elo": 1009
+  },
+  {
+    "title": "The Man from Earth",
+    "rating": 2,
+    "elo": 1004
+  },
+  {
+    "title": "A.I. Artificial Intelligence",
+    "rating": 2,
+    "elo": 1000
+  },
+  {
+    "title": "The Santa Clause 2",
+    "rating": 2,
+    "elo": 995
+  },
+  {
+    "title": "Holiday Inn",
+    "rating": 2,
+    "elo": 990
+  },
+  {
+    "title": "The Hangover",
+    "rating": 2,
+    "elo": 985
+  },
+  {
+    "title": "Sherlock Holmes: A Game of Shadows",
+    "rating": 2,
+    "elo": 981
+  },
+  {
+    "title": "Jurassic World: Fallen Kingdom",
+    "rating": 2,
+    "elo": 975
+  },
+  {
+    "title": "Event Horizon",
+    "rating": 2,
+    "elo": 970
+  },
+  {
+    "title": "Wonder Woman 1984",
+    "rating": 2,
+    "elo": 965
+  },
+  {
+    "title": "The Midnight Sky",
+    "rating": 2,
+    "elo": 960
+  },
+  {
+    "title": "Lady in the Water",
+    "rating": 2,
+    "elo": 954
+  },
+  {
+    "title": "Hillbilly Elegy",
+    "rating": 2,
+    "elo": 949
+  },
+  {
+    "title": "The United States vs. Billie Holiday",
+    "rating": 2,
+    "elo": 943
+  },
+  {
+    "title": "Mortal Kombat",
+    "rating": 2,
+    "elo": 937
+  },
+  {
+    "title": "Jungle Cruise",
+    "rating": 2,
+    "elo": 931
+  },
+  {
+    "title": "Malignant",
+    "rating": 2,
+    "elo": 924
+  },
+  {
+    "title": "Kick-Ass",
+    "rating": 2,
+    "elo": 918
+  },
+  {
+    "title": "Morbius",
+    "rating": 2,
+    "elo": 911
+  },
+  {
+    "title": "Fear Street: 1994",
+    "rating": 2,
+    "elo": 904
+  },
+  {
+    "title": "Top Gun",
+    "rating": 2,
+    "elo": 897
+  },
+  {
+    "title": "Don't Worry Darling",
+    "rating": 2,
+    "elo": 890
+  },
+  {
+    "title": "The Little Mermaid",
+    "rating": 2,
+    "elo": 882
+  },
+  {
+    "title": "Miraculous: Ladybug & Cat Noir, The Movie",
+    "rating": 2,
+    "elo": 874
+  },
+  {
+    "title": "Christmas Town",
+    "rating": 2,
+    "elo": 865
+  },
+  {
+    "title": "Captain America: Brave New World",
+    "rating": 2,
+    "elo": 857
+  },
+  {
+    "title": "Transformers",
+    "rating": 1.5,
+    "elo": 847
+  },
+  {
+    "title": "The Incredible Hulk",
+    "rating": 1.5,
+    "elo": 838
+  },
+  {
+    "title": "Europa Report",
+    "rating": 1.5,
+    "elo": 828
+  },
+  {
+    "title": "Life",
+    "rating": 1.5,
+    "elo": 817
+  },
+  {
+    "title": "Split",
+    "rating": 1.5,
+    "elo": 805
+  },
+  {
+    "title": "Oblivion",
+    "rating": 1.5,
+    "elo": 793
+  },
+  {
+    "title": "Star Wars: The Rise of Skywalker",
+    "rating": 1.5,
+    "elo": 780
+  },
+  {
+    "title": "The Village",
+    "rating": 1.5,
+    "elo": 765
+  },
+  {
+    "title": "Power Rangers",
+    "rating": 1.5,
+    "elo": 750
+  },
+  {
+    "title": "Fantastic Beasts: The Secrets of Dumbledore",
+    "rating": 1.5,
+    "elo": 732
+  },
+  {
+    "title": "65",
+    "rating": 1.5,
+    "elo": 713
+  },
+  {
+    "title": "Meg 2: The Trench",
+    "rating": 1.5,
+    "elo": 691
+  },
+  {
+    "title": "Spider-Man 3",
+    "rating": 1,
+    "elo": 665
+  },
+  {
+    "title": "Venom",
+    "rating": 1,
+    "elo": 633
+  },
+  {
+    "title": "Profile",
+    "rating": 1,
+    "elo": 591
+  },
+  {
+    "title": "Black Adam",
+    "rating": 0.5,
+    "elo": 532
+  },
+  {
+    "title": "Pirates of the Caribbean: Dead Men Tell No Tales",
+    "rating": 0.5,
+    "elo": 412
+  }
+]
