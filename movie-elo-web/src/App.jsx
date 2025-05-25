@@ -124,7 +124,8 @@ export default function App() {
     formData.append('file', file);
 
     try {
-      const response = await fetch('https://movie-elo-tna6.onrender.com', {
+      const response = await fetch('https://movie-elo-tna6.onrender.com/upload
+', {
         method: 'POST',
         body: formData,
         headers: {
