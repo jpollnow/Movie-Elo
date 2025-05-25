@@ -14,17 +14,6 @@ function updateElo(winner, loser, k = 32) {
   loser.elo = Math.round(loser.elo + k * (0 - expectedLose));
 }
 
-async function fetchPoster(title) {
-  const apiKey = import.meta.env.VITE_OMDB_API_KEY;
-  const match = title.match(/(.+?)\s(\d{4})$/);
-  const name = match ? match[1].trim() : title;
-  const year = match ? match[2] : '';
-
-  const res = await fetch(`https://www.omdbapi.com/?apikey=${apiKey}&t=${encodeURIComponent(name)}&y=${year}`);
-  const data = await res.json();
-  return data.Poster && data.Poster !== 'N/A' ? data.Poster : null;
-}
-
 async function uploadMoviesToSupabase(movies, userId) {
   const dataToInsert = movies.map((movie) => ({
     user_id: userId,
@@ -51,7 +40,7 @@ async function loadMoviesFromSupabase(userId) {
   return data;
 }
 
-async function deleteUserMovies(userId, setMovies) {
+async function deleteUserMovies(userId, setMovies, setNeedsUpload) {
   const confirmed = window.confirm(
     'Are you sure you want to delete all your rankings? This cannot be undone.'
   );
@@ -62,8 +51,31 @@ async function deleteUserMovies(userId, setMovies) {
     console.error(error);
   } else {
     setMovies([]);
+    setNeedsUpload(true);
     alert('Your rankings have been deleted.');
   }
+}
+
+function downloadLetterboxdList(rankings) {
+  const rows = [
+    ['Title', 'Year', 'Letterboxd URI', 'Review'],
+    ...rankings.map((m) => {
+      const [name, year] = m.title.match(/(.+) (\d{4})$/)?.slice(1) || [m.title, ''];
+      return [name, year, m.uri || '', `Elo ${m.elo}`];
+    }),
+  ];
+
+  const csvContent =
+    'data:text/csv;charset=utf-8,' +
+    rows.map((r) => r.map((cell) => `"${cell}"`).join(',')).join('\n');
+
+  const encodedUri = encodeURI(csvContent);
+  const link = document.createElement('a');
+  link.setAttribute('href', encodedUri);
+  link.setAttribute('download', 'letterboxd_list.csv');
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
 }
 
 export default function App() {
@@ -73,20 +85,21 @@ export default function App() {
   const [showResults, setShowResults] = useState(false);
   const [results, setResults] = useState(null);
   const [viewRankings, setViewRankings] = useState(false);
+  const [needsUpload, setNeedsUpload] = useState(false);
+  const [uploading, setUploading] = useState(false);
+  const [uploadAttempt, setUploadAttempt] = useState(0);
 
   useEffect(() => {
     supabase.auth.getSession().then(({ data: { session } }) => {
       setSession(session);
       if (session?.user?.id) {
-        loadMoviesFromSupabase(session.user.id).then(async (loadedMovies) => {
-          const withPosters = await Promise.all(
-            loadedMovies.map(async (movie) => ({
-              ...movie,
-              poster: await fetchPoster(movie.title),
-            }))
-          );
-          setMovies(withPosters);
-          if (withPosters.length >= 2) pickPair(withPosters);
+        loadMoviesFromSupabase(session.user.id).then((loadedMovies) => {
+          setMovies(loadedMovies);
+          if (loadedMovies.length >= 2) {
+            pickPair(loadedMovies);
+          } else {
+            setNeedsUpload(true);
+          }
         });
       }
     });
@@ -94,15 +107,13 @@ export default function App() {
     const { data: listener } = supabase.auth.onAuthStateChange((_event, session) => {
       setSession(session);
       if (session?.user?.id) {
-        loadMoviesFromSupabase(session.user.id).then(async (loadedMovies) => {
-          const withPosters = await Promise.all(
-            loadedMovies.map(async (movie) => ({
-              ...movie,
-              poster: await fetchPoster(movie.title),
-            }))
-          );
-          setMovies(withPosters);
-          if (withPosters.length >= 2) pickPair(withPosters);
+        loadMoviesFromSupabase(session.user.id).then((loadedMovies) => {
+          setMovies(loadedMovies);
+          if (loadedMovies.length >= 2) {
+            pickPair(loadedMovies);
+          } else {
+            setNeedsUpload(true);
+          }
         });
       }
     });
@@ -123,39 +134,55 @@ export default function App() {
     const formData = new FormData();
     formData.append('file', file);
 
-    try {
-      const response = await fetch('https://movie-elo-tna6.onrender.com/upload', {
-        method: 'POST',
-        body: formData,
-        headers: {
-          'x-user-id': session.user.id,
-        },
-      });
+    setUploading(true);
+    setUploadAttempt(1);
 
-      if (!response.ok) throw new Error('Upload failed');
+    let response;
+    let attempts = 0;
+    const maxAttempts = 10;
 
-      const data = await response.json();
-      const withPosters = await Promise.all(
-        data.map(async (movie) => ({
-          ...movie,
-          poster: await fetchPoster(movie.title),
-        }))
-      );
-
-      setMovies((prev) => {
-        const all = [...prev];
-        withPosters.forEach((movie) => {
-          if (!all.find((m) => m.title === movie.title)) {
-            all.push(movie);
-          }
+    while (attempts < maxAttempts) {
+      setUploadAttempt(attempts + 1);
+      try {
+        response = await fetch('http://localhost:4000/upload', {
+          method: 'POST',
+          body: formData,
+          headers: {
+            'x-user-id': session.user.id,
+          },
         });
-        pickPair(all);
-        return all;
-      });
-    } catch (err) {
-      console.error('Error uploading file:', err);
-      alert('There was an error uploading your file.');
+
+        if (response.ok) break;
+        attempts++;
+        await new Promise((res) => setTimeout(res, 10000));
+      } catch (err) {
+        attempts++;
+        await new Promise((res) => setTimeout(res, 10000));
+      }
     }
+
+    setUploading(false);
+
+    if (!response || !response.ok) {
+      alert('Upload failed after multiple attempts. The server might still be waking up — please try again shortly.');
+      return;
+    }
+
+    const data = await response.json();
+    setMovies((prev) => {
+      const all = [...prev];
+      data.forEach((movie) => {
+        if (!all.find((m) => m.title === movie.title)) {
+          all.push(movie);
+        }
+      });
+      if (all.length >= 2) {
+        setNeedsUpload(false);
+        pickPair(all);
+      }
+      alert('✅ Upload complete! Your rankings have been added.');
+      return all;
+    });
   };
 
   const handleVote = (winnerIdx) => {
@@ -188,6 +215,22 @@ export default function App() {
 
       {!session ? (
         <Auth supabaseClient={supabase} appearance={{ theme: ThemeSupa }} providers={[]} />
+      ) : uploading ? (
+        <div className="mt-4">
+          <p className="text-sm text-gray-500 mb-2">
+            Uploading… please wait while the server wakes up (attempt {uploadAttempt} of 10). This may take up to 2 minutes.
+          </p>
+        </div>
+      ) : needsUpload ? (
+        <div className="mt-4">
+          <p className="mb-2">You don't have any movies uploaded yet. Upload your ratings.csv to get started:</p>
+          <input
+            type="file"
+            accept=".csv"
+            onChange={handleFileUpload}
+            className="mb-4"
+          />
+        </div>
       ) : (
         <>
           <button
@@ -197,9 +240,18 @@ export default function App() {
             {viewRankings ? 'Back to Matchup' : 'View Elo Rankings'}
           </button>
 
+          {viewRankings && (
+            <button
+              className="mb-4 bg-green-600 !text-white px-4 py-2 rounded hover:bg-green-700 transition"
+              onClick={() => downloadLetterboxdList(rankings)}
+            >
+              Download Letterboxd List
+            </button>
+          )}
+
           <button
             className="mb-2 bg-red-500 !text-white px-4 py-2 rounded hover:bg-red-600 transition"
-            onClick={() => deleteUserMovies(session.user.id, setMovies)}
+            onClick={() => deleteUserMovies(session.user.id, setMovies, setNeedsUpload)}
           >
             Delete My Rankings
           </button>
@@ -233,15 +285,9 @@ export default function App() {
             <div className="w-full flex justify-center items-start gap-8 mb-8 flex-wrap">
               {pair.map((movie, idx) => (
                 <div key={movie.title} className="flex flex-col items-center w-64">
-                  {movie.poster && (
-                    <img
-                      src={movie.poster}
-                      alt={movie.title}
-                      className="rounded shadow mb-2"
-                      style={{ maxHeight: '400px', objectFit: 'cover' }}
-                    />
-                  )}
-                  <h2 className="text-lg font-semibold mb-2 text-center">{movie.title}</h2>
+                  <div className="h-[375px] w-full flex items-center justify-center bg-gray-200 text-black text-lg rounded shadow mb-2">
+                    {movie.title}
+                  </div>
                   <button
                     className="bg-blue-600 !text-white px-4 py-2 rounded hover:bg-blue-700 transition"
                     onClick={() => handleVote(idx)}
