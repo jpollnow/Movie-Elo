@@ -122,12 +122,34 @@ export default function App() {
   }, []);
 
   const pickPair = (list) => {
-    if (list.length < 2) return;
-    const shuffled = [...list].sort(() => 0.5 - Math.random());
-    setPair([shuffled[0], shuffled[1]]);
-    setShowResults(false);
-    setResults(null);
-  };
+  if (list.length < 2) return;
+
+  // Step 1: Pick the first movie at random
+  const first = list[Math.floor(Math.random() * list.length)];
+
+  // Step 2: Calculate weights for all other movies based on Elo similarity
+  const candidates = list.filter(m => m.title !== first.title);
+  const weighted = candidates.map(movie => {
+    const diff = Math.abs(movie.elo - first.elo);
+    const weight = 1 / (1 + diff); // Smaller difference = higher weight
+    return { movie, weight };
+  });
+
+  // Step 3: Randomly pick one movie using weights
+  const totalWeight = weighted.reduce((sum, w) => sum + w.weight, 0);
+  let rand = Math.random() * totalWeight;
+
+  let second = weighted.find(({ weight }) => {
+    if (rand < weight) return true;
+    rand -= weight;
+    return false;
+  }).movie;
+
+  // Step 4: Set the pair and reset results
+  setPair([first, second]);
+  setShowResults(false);
+  setResults(null);
+};
 
   const handleFileUpload = async (e) => {
     const file = e.target.files[0];
