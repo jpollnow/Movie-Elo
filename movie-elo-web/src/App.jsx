@@ -285,7 +285,7 @@ export default function App() {
             <div className="w-full flex justify-center items-start gap-8 mb-8 flex-wrap">
               {pair.map((movie, idx) => (
                 <div key={movie.title} className="flex flex-col items-center w-64">
-                  <div className="h-[375px] w-full flex items-center justify-center !bg-black text-white text-lg rounded shadow mb-2">
+                  <div className="h-[375px] w-full flex items-center justify-center bg-stone-800 text-white text-lg rounded shadow mb-2">
                     {movie.title}
                   </div>
                   <button
