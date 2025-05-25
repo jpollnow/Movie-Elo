@@ -84,6 +84,8 @@ app.post('/upload', upload.single('file'), async (req, res) => {
       const newMovies = results.filter(
         (movie) => !existing.data.some((m) => m.title === movie.title)
       );
+      
+      newMovies.sort((a, b) => b.rating - a.rating);
 
       const n = newMovies.length;
       const withElo = newMovies.map((movie, i) => {
