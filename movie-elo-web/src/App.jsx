@@ -285,7 +285,7 @@ export default function App() {
             <div className="w-full flex justify-center items-start gap-8 mb-8 flex-wrap">
               {pair.map((movie, idx) => (
                 <div key={movie.title} className="flex flex-col items-center w-64">
-                  <div className="h-[375px] w-full flex items-center justify-center bg-gray-200 text-black text-lg rounded shadow mb-2">
+                  <div className="h-[375px] w-full flex items-center justify-center bg-blue-600 text-black text-lg rounded shadow mb-2">
                     {movie.title}
                   </div>
                   <button
@@ -309,7 +309,7 @@ export default function App() {
                 {results.loser.title}: {results.oldLoserElo} → {results.loser.elo} (Δ {results.loser.elo - results.oldLoserElo})
               </p>
               <button
-                className="mt-2 bg-gray-100 !text-black px-4 py-2 rounded hover:bg-gray-200 transition"
+                className="mt-2 bg-gray-100 !text-white px-4 py-2 rounded hover:bg-gray-200 transition"
                 onClick={() => pickPair(movies)}
               >
                 Next Matchup
