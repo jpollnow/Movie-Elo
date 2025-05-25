@@ -144,7 +144,7 @@ export default function App() {
     while (attempts < maxAttempts) {
       setUploadAttempt(attempts + 1);
       try {
-        response = await fetch('http://localhost:4000/upload', {
+        response = await fetch('https://movie-elo-tna6.onrender.com/upload', {
           method: 'POST',
           body: formData,
           headers: {
